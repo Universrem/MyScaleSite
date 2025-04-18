@@ -5,106 +5,62 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Scale Visualizer</title>
-  <!-- 🔹 Базові стилі сайту (можна винести в styles/base.css) -->
-
+  <title>Scale Visualizer</title>
+  <!-- Підключаємо окремий CSS для компонентів -->
+  <link rel="stylesheet" href="styles/components.css" />
+  <!-- Leaflet CSS для карти -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 
 <body>
-  <!-- ▸ Ліва панель — блоки -->
+  <!-- Ліва панель блоків -->
   <div id="left-bar">
-    <button class="block-btn" data-arrow="true"><span>Всесвіт</span><span class="arrow">&#9660;</span></button>
-    <div id="left-bar">
-      <button class="block-btn" data-block="universe" data-arrow="true">
-        <span>Всесвіт</span><span class="arrow">&#9660;</span>
-      </button>
-      <div class="dropdown" id="dropdown-universe">
-        <button data-item="planets">Планети</button>
-        <button data-item="stars">Зірки</button>
-        <!-- …інші підпункти -->
-      </div>
-
-      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    <button class="block-btn" data-block="universe" data-arrow="true"><span>Всесвіт</span><span
+        class="arrow">&#9660;</span></button>
+    <div class="dropdown" id="dropdown-universe">
+      <button data-item="planets">Планети</button>
+      <button data-item="stars">Зірки</button>
     </div>
 
-    <button class="block-btn" data-arrow="true"><span>Географія</span><span class="arrow">&#9660;</span></button>
-    <div id="left-bar">
-      <button class="block-btn" data-block="universe" data-arrow="true">
-        <span>Всесвіт</span><span class="arrow">&#9660;</span>
-      </button>
-      <div class="dropdown" id="dropdown-universe">
-        <button data-item="planets">Планети</button>
-        <button data-item="stars">Зірки</button>
-        <!-- …інші підпункти -->
-      </div>
-
-      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    <button class="block-btn" data-block="geography" data-arrow="true"><span>Географія</span><span
+        class="arrow">&#9660;</span></button>
+    <div class="dropdown" id="dropdown-geography">
+      <button data-item="countries">Країни</button>
+      <button data-item="cities">Міста</button>
     </div>
 
-    <button class="block-btn" data-arrow="true"><span>Гроші</span><span class="arrow">&#9660;</span></button>
-    <div id="left-bar">
-      <button class="block-btn" data-block="universe" data-arrow="true">
-        <span>Всесвіт</span><span class="arrow">&#9660;</span>
-      </button>
-      <div class="dropdown" id="dropdown-universe">
-        <button data-item="planets">Планети</button>
-        <button data-item="stars">Зірки</button>
-        <!-- …інші підпункти -->
-      </div>
-
-      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    <button class="block-btn" data-block="money" data-arrow="true"><span>Гроші</span><span
+        class="arrow">&#9660;</span></button>
+    <div class="dropdown" id="dropdown-money">
+      <button data-item="persons">Персони</button>
+      <button data-item="companies">Компанії</button>
     </div>
 
-    <button class="block-btn" data-arrow="true"><span>Час</span><span class="arrow">&#9660;</span></button>
-    <div id="left-bar">
-      <button class="block-btn" data-block="universe" data-arrow="true">
-        <span>Всесвіт</span><span class="arrow">&#9660;</span>
-      </button>
-      <div class="dropdown" id="dropdown-universe">
-        <button data-item="planets">Планети</button>
-        <button data-item="stars">Зірки</button>
-        <!-- …інші підпункти -->
-      </div>
-
-      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    <button class="block-btn" data-block="time" data-arrow="true"><span>Час</span><span
+        class="arrow">&#9660;</span></button>
+    <div class="dropdown" id="dropdown-time">
+      <button data-item="events">Події</button>
     </div>
 
-    <button class="block-btn" data-arrow="true"><span>Довільно</span><span class="arrow">&#9660;</span></button>
-    <div id="left-bar">
-      <button class="block-btn" data-block="universe" data-arrow="true">
-        <span>Всесвіт</span><span class="arrow">&#9660;</span>
-      </button>
-      <div class="dropdown" id="dropdown-universe">
-        <button data-item="planets">Планети</button>
-        <button data-item="stars">Зірки</button>
-        <!-- …інші підпункти -->
-      </div>
-
-      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    <button class="block-btn" data-block="custom" data-arrow="true"><span>Довільно</span><span
+        class="arrow">&#9660;</span></button>
+    <div class="dropdown" id="dropdown-custom">
+      <button data-item="custom1">Власний параметр</button>
     </div>
 
-    <button class="block-btn" data-arrow="false"><span>Мова</span></button>
-    <button class="block-btn" data-arrow="false"><span>FAQ</span></button>
+    <button class="block-btn" data-block="language" data-arrow="false"><span>Мова</span></button>
+    <button class="block-btn" data-block="faq" data-arrow="false"><span>FAQ</span></button>
   </div>
 
-  <!-- ▸ Праворуч поки що порожнє місце під мапу / кілa -->
+  <!-- Контейнер для карти / візуалізації -->
   <div id="map-container"></div>
 
-  <!-- 🔹 Невеликий скрипт для повороту стрілочки -->
-  <script>
-    document.querySelectorAll('.block-btn').forEach(btn => {
-      if (btn.dataset.arrow === 'false') return; // «Мова» й FAQ без стрілки
-      btn.addEventListener('click', () => btn.classList.toggle('open'));
-    });
-  </script>
-
-  <!-- Leaflet JS для карти -->
+  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <!-- Логіка блоків + дропдауни -->
-  <script src="js/blocks_dropdown.js" type="module"></script>
-  <!-- Ініціалізація карти + дані -->
-  <script src="js/map_init.js" type="module"></script>
-
+  <!-- Скрипт для дропдаунів -->
+  <script type="module" src="js/blocks_dropdown.js"></script>
+  <!-- Ініціалізація карти та даних -->
+  <script type="module" src="js/map_init.js"></script>
 </body>
 
 </html>
