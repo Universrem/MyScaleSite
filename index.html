@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scale Visualizer</title>
+  <!-- 🔹 Базові стилі сайту (можна винести в styles/base.css) -->
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Montserrat', sans-serif; display: flex; }
+    /* Ліва панель */
+    #left-bar {
+      width: 260px;
+      height: 100vh;
+      background-color: #9AB4BB;
+      padding: 24px 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .block-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 10px 22px;
+      border: 3px solid #FFFFFF;
+      background: transparent;
+      color: #FFFFFF;
+      font-size: 24px;
+      font-weight: 700;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+    .block-btn:hover { background: rgba(255,255,255,0.15); }
+    .arrow { transition: transform 0.2s ease; }
+    .block-btn.open .arrow { transform: rotate(180deg); }
+
+    /* Правий блок (карта / візуалізація) */
+    #map-container { flex: 1; background: #eee; }
+  </style>
+</head>
+<body>
+  <!-- ▸ Ліва панель — блоки -->
+  <div id="left-bar">
+    <button class="block-btn" data-arrow="true"><span>Всесвіт</span><span class="arrow">&#9660;</span></button>
+    <button class="block-btn" data-arrow="true"><span>Географія</span><span class="arrow">&#9660;</span></button>
+    <button class="block-btn" data-arrow="true"><span>Гроші</span><span class="arrow">&#9660;</span></button>
+    <button class="block-btn" data-arrow="true"><span>Час</span><span class="arrow">&#9660;</span></button>
+    <button class="block-btn" data-arrow="true"><span>Довільно</span><span class="arrow">&#9660;</span></button>
+    <button class="block-btn" data-arrow="false"><span>Мова</span></button>
+    <button class="block-btn" data-arrow="false"><span>FAQ</span></button>
+  </div>
+
+  <!-- ▸ Праворуч поки що порожнє місце під мапу / кілa -->
+  <div id="map-container"></div>
+
+  <!-- 🔹 Невеликий скрипт для повороту стрілочки -->
+  <script>
+    document.querySelectorAll('.block-btn').forEach(btn => {
+      if (btn.dataset.arrow === 'false') return; // «Мова» й FAQ без стрілки
+      btn.addEventListener('click', () => btn.classList.toggle('open'));
+    });
+  </script>
+</body>
+</html>
