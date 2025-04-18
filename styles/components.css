@@ -1,0 +1,71 @@
+/* styles/components.css */
+
+/* Панель блоків */
+#left-bar {
+  width: 260px;
+  height: 100vh;
+  background-color: #9AB4BB;
+  padding: 24px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Кнопки блоків */
+.block-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 22px;
+  border: 3px solid #FFFFFF;
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.block-btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+.arrow {
+  transition: transform 0.2s ease;
+}
+.block-btn.open .arrow {
+  transform: rotate(180deg);
+}
+
+/* Випадачка під кнопки */
+.dropdown {
+  display: none;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  margin-top: 4px;
+  padding: 8px 0;
+}
+.dropdown.active {
+  display: flex;
+}
+.dropdown button {
+  background: transparent;
+  border: none;
+  padding: 6px 16px;
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+.dropdown button:hover {
+  background: #f0f0f0;
+}
+
+/* Мапа */
+#map-container {
+  flex: 1;
+  position: relative;
+}
+
+/* Підключіть Leaflet або іншу карту пізніше */

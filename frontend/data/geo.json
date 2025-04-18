@@ -1,0 +1,72 @@
+[
+  {
+    "category_en": "Country",
+    "category_ua": "Країни",
+    "category_es": "Países",
+    "name_en": "Ukraine",
+    "name_ua": "Україна",
+    "name_es": "Ucrania",
+    "description_en": "A sovereign state in Eastern Europe.",
+    "description_ua": "Незалежна держава у Східній Європі.",
+    "description_es": "Un estado soberano en Europa del Este.",
+    "data": [
+      {
+        "year": 1989,
+        "area": {
+          "value": 603628,
+          "unit": "km²"
+        },
+        "population": {
+          "value": 51545200,
+          "unit": "осіб"
+        }
+      },
+      {
+        "year": 2024,
+        "area": {
+          "value": 603628,
+          "unit": "km²"
+        },
+        "population": {
+          "value": 35600000,
+          "unit": "осіб"
+        }
+      }
+    ]
+  },
+  {
+    "category_en": "Country",
+    "category_ua": "Країни",
+    "category_es": "Países",
+    "name_en": "United States",
+    "name_ua": "США",
+    "name_es": "Estados Unidos",
+    "description_en": "A federal republic in North America.",
+    "description_ua": "Федеративна держава у Північній Америці.",
+    "description_es": "Una república federal en América del Norte.",
+    "data": [
+      {
+        "year": 1989,
+        "area": {
+          "value": 9833520,
+          "unit": "km²"
+        },
+        "population": {
+          "value": 248709873,
+          "unit": "осіб"
+        }
+      },
+      {
+        "year": 2024,
+        "area": {
+          "value": 9833520,
+          "unit": "km²"
+        },
+        "population": {
+          "value": 339996563,
+          "unit": "осіб"
+        }
+      }
+    ]
+  }
+]

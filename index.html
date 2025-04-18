@@ -1,54 +1,88 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Scale Visualizer</title>
   <!-- 🔹 Базові стилі сайту (можна винести в styles/base.css) -->
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Montserrat', sans-serif; display: flex; }
-    /* Ліва панель */
-    #left-bar {
-      width: 260px;
-      height: 100vh;
-      background-color: #9AB4BB;
-      padding: 24px 18px;
-      display: flex;
-      flex-direction: column;
-      gap: 18px;
-    }
-    .block-btn {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      padding: 10px 22px;
-      border: 3px solid #FFFFFF;
-      background: transparent;
-      color: #FFFFFF;
-      font-size: 24px;
-      font-weight: 700;
-      border-radius: 12px;
-      cursor: pointer;
-    }
-    .block-btn:hover { background: rgba(255,255,255,0.15); }
-    .arrow { transition: transform 0.2s ease; }
-    .block-btn.open .arrow { transform: rotate(180deg); }
 
-    /* Правий блок (карта / візуалізація) */
-    #map-container { flex: 1; background: #eee; }
-  </style>
 </head>
+
 <body>
   <!-- ▸ Ліва панель — блоки -->
   <div id="left-bar">
     <button class="block-btn" data-arrow="true"><span>Всесвіт</span><span class="arrow">&#9660;</span></button>
+    <div id="left-bar">
+      <button class="block-btn" data-block="universe" data-arrow="true">
+        <span>Всесвіт</span><span class="arrow">&#9660;</span>
+      </button>
+      <div class="dropdown" id="dropdown-universe">
+        <button data-item="planets">Планети</button>
+        <button data-item="stars">Зірки</button>
+        <!-- …інші підпункти -->
+      </div>
+
+      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    </div>
+
     <button class="block-btn" data-arrow="true"><span>Географія</span><span class="arrow">&#9660;</span></button>
+    <div id="left-bar">
+      <button class="block-btn" data-block="universe" data-arrow="true">
+        <span>Всесвіт</span><span class="arrow">&#9660;</span>
+      </button>
+      <div class="dropdown" id="dropdown-universe">
+        <button data-item="planets">Планети</button>
+        <button data-item="stars">Зірки</button>
+        <!-- …інші підпункти -->
+      </div>
+
+      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    </div>
+
     <button class="block-btn" data-arrow="true"><span>Гроші</span><span class="arrow">&#9660;</span></button>
+    <div id="left-bar">
+      <button class="block-btn" data-block="universe" data-arrow="true">
+        <span>Всесвіт</span><span class="arrow">&#9660;</span>
+      </button>
+      <div class="dropdown" id="dropdown-universe">
+        <button data-item="planets">Планети</button>
+        <button data-item="stars">Зірки</button>
+        <!-- …інші підпункти -->
+      </div>
+
+      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    </div>
+
     <button class="block-btn" data-arrow="true"><span>Час</span><span class="arrow">&#9660;</span></button>
+    <div id="left-bar">
+      <button class="block-btn" data-block="universe" data-arrow="true">
+        <span>Всесвіт</span><span class="arrow">&#9660;</span>
+      </button>
+      <div class="dropdown" id="dropdown-universe">
+        <button data-item="planets">Планети</button>
+        <button data-item="stars">Зірки</button>
+        <!-- …інші підпункти -->
+      </div>
+
+      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    </div>
+
     <button class="block-btn" data-arrow="true"><span>Довільно</span><span class="arrow">&#9660;</span></button>
+    <div id="left-bar">
+      <button class="block-btn" data-block="universe" data-arrow="true">
+        <span>Всесвіт</span><span class="arrow">&#9660;</span>
+      </button>
+      <div class="dropdown" id="dropdown-universe">
+        <button data-item="planets">Планети</button>
+        <button data-item="stars">Зірки</button>
+        <!-- …інші підпункти -->
+      </div>
+
+      <!-- І так само для Географія, Гроші, Час, Довільно… -->
+    </div>
+
     <button class="block-btn" data-arrow="false"><span>Мова</span></button>
     <button class="block-btn" data-arrow="false"><span>FAQ</span></button>
   </div>
@@ -63,5 +97,14 @@
       btn.addEventListener('click', () => btn.classList.toggle('open'));
     });
   </script>
+
+  <!-- Leaflet JS для карти -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Логіка блоків + дропдауни -->
+  <script src="js/blocks_dropdown.js" type="module"></script>
+  <!-- Ініціалізація карти + дані -->
+  <script src="js/map_init.js" type="module"></script>
+
 </body>
+
 </html>

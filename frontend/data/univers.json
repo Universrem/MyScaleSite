@@ -1,0 +1,878 @@
+[
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Earth",
+    "name_ua": "Земля",
+    "name_es": "Tierra",
+    "description_en": "Our home planet, rich with liquid water and life.",
+    "description_ua": "Наша рідна планета, багата на рідку воду й життя.",
+    "description_es": "Nuestro planeta natal, lleno de agua líquida y vida.",
+    "diameter": {
+      "value": 12742,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 5.972e+24,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Mars",
+    "name_ua": "Марс",
+    "name_es": "Marte",
+    "description_en": "The Red Planet, potential future target for human exploration.",
+    "description_ua": "Червона планета, потенційна ціль для майбутніх польотів людини.",
+    "description_es": "El planeta rojo, posible objetivo de futuras misiones humanas.",
+    "diameter": {
+      "value": 6779,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 6.417e+23,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 225000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Jupiter",
+    "name_ua": "Юпітер",
+    "name_es": "Júpiter",
+    "description_en": "The largest planet in the Solar System, a gas giant with strong storms.",
+    "description_ua": "Найбільша планета Сонячної системи, газовий гігант із потужними бурями.",
+    "description_es": "El planeta más grande del sistema solar, un gigante gaseoso con fuertes tormentas.",
+    "diameter": {
+      "value": 142984,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.898e+27,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 588000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Saturn",
+    "name_ua": "Сатурн",
+    "name_es": "Saturno",
+    "description_en": "Famous for its spectacular ring system.",
+    "description_ua": "Відомий своєю вражаючою системою кілець.",
+    "description_es": "Famoso por su espectacular sistema de anillos.",
+    "diameter": {
+      "value": 120536,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 5.683e+26,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 1200000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Venus",
+    "name_ua": "Венера",
+    "name_es": "Venus",
+    "description_en": "A hot, cloudy planet sometimes called Earth's twin in size.",
+    "description_ua": "Гаряча, вкрита хмарами планета, іноді названа близнюком Землі за розміром.",
+    "description_es": "Un planeta caliente y nublado, a veces llamado gemelo de la Tierra en tamaño.",
+    "diameter": {
+      "value": 12104,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 4.867e+24,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 41000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Mercury",
+    "name_ua": "Меркурій",
+    "name_es": "Mercurio",
+    "description_en": "The smallest and innermost planet of the Solar System.",
+    "description_ua": "Найменша й найближча до Сонця планета Сонячної системи.",
+    "description_es": "El planeta más pequeño y cercano al Sol del sistema solar.",
+    "diameter": {
+      "value": 4879,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 3.285e+23,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 77000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Neptune",
+    "name_ua": "Нептун",
+    "name_es": "Neptuno",
+    "description_en": "An ice giant noted for its deep blue color and supersonic winds.",
+    "description_ua": "Крижаній гігант із насиченим синім кольором і надзвуковими вітрами.",
+    "description_es": "Un gigante de hielo conocido por su color azul intenso y vientos supersónicos.",
+    "diameter": {
+      "value": 49528,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.024e+26,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 4300000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "planet",
+    "category_ua": "Планета",
+    "category_es": "Planeta",
+    "name_en": "Uranus",
+    "name_ua": "Уран",
+    "name_es": "Urano",
+    "description_en": "An ice giant with a unique axial tilt causing extreme seasons.",
+    "description_ua": "Крижаний гігант із унікальним нахилом осі, що спричиняє екстремальні сезони.",
+    "description_es": "Un gigante de hielo con una inclinación axial única que provoca estaciones extremas.",
+    "diameter": {
+      "value": 51118,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 8.681e+25,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 2900000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "dwarf planet",
+    "category_ua": "Карликова планета",
+    "category_es": "Planeta enano",
+    "name_en": "Pluto",
+    "name_ua": "Плутон",
+    "name_es": "Plutón",
+    "description_en": "A dwarf planet in the Kuiper Belt, once considered the ninth planet.",
+    "description_ua": "Карликова планета в поясі Койпера, колись рахувалася дев'ятою планетою.",
+    "description_es": "Un planeta enano en el cinturón de Kuiper, antes considerado el noveno planeta.",
+    "diameter": {
+      "value": 2376.6,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.309e+22,
+      "unit": "kg"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 5000000000.0,
+      "unit": "km"
+    }
+  },
+  {
+    "category_en": "exoplanet",
+    "category_ua": "Екзопланета",
+    "category_es": "Exoplaneta",
+    "name_en": "Kepler-22b",
+    "name_ua": "Kepler-22b",
+    "name_es": "Kepler-22b",
+    "description_en": "A super‑Earth exoplanet located in its star's habitable zone.",
+    "description_ua": "Суперземна екзопланета, що перебуває в зоні життя своєї зірки.",
+    "description_es": "Una super‑Tierra situada en la zona habitable de su estrella.",
+    "diameter": {
+      "value": 30580,
+      "unit": "km"
+    },
+    "mass": {
+      "value": null,
+      "unit": null
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 620,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Sun",
+    "name_ua": "Сонце",
+    "name_es": "Sol",
+    "description_en": "The star at the center of the Solar System.",
+    "description_ua": "Зірка в центрі Сонячної системи.",
+    "description_es": "La estrella en el centro del sistema solar.",
+    "diameter": {
+      "value": 1392700.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.989e+30,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 1,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 1,
+      "unit": "AU"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Sirius A",
+    "name_ua": "Сіріус A",
+    "name_es": "Sirio A",
+    "description_en": "The brightest star in Earth's night sky, part of a binary system.",
+    "description_ua": "Найяскравіша зірка нічного неба Землі, частина подвійної системи.",
+    "description_es": "La estrella más brillante del cielo nocturno, parte de un sistema binario.",
+    "diameter": {
+      "value": 2380000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 4.018e+30,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 25.4,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 8.6,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Polaris",
+    "name_ua": "Полярна зірка",
+    "name_es": "Estrella Polar",
+    "description_en": "The current North Star, used for navigation.",
+    "description_ua": "Сучасна Полярна зірка, орієнтир для навігації.",
+    "description_es": "La actual estrella del norte, utilizada para la navegación.",
+    "diameter": {
+      "value": 52000000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.2e+31,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 2500,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 433,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Aldebaran",
+    "name_ua": "Альдебаран",
+    "name_es": "Aldebarán",
+    "description_en": "A red giant star in the constellation Taurus.",
+    "description_ua": "Червоний гігант у сузір'ї Тельця.",
+    "description_es": "Una gigante roja en la constelación de Tauro.",
+    "diameter": {
+      "value": 61500000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 3.4e+30,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 520,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 65,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Betelgeuse",
+    "name_ua": "Бетельгейзе",
+    "name_es": "Betelgeuse",
+    "description_en": "A red supergiant nearing the end of its life.",
+    "description_ua": "Червоний надгігант, що наближається до кінця свого життя.",
+    "description_es": "Una supergigante roja cercana al final de su vida.",
+    "diameter": {
+      "value": 1100000000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 2.3e+31,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 126000,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 548,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "UY Scuti",
+    "name_ua": "UY Щита",
+    "name_es": "UY Scuti",
+    "description_en": "One of the largest known stars by radius.",
+    "description_ua": "Одна з найбільших відомих зірок за радіусом.",
+    "description_es": "Una de las estrellas más grandes conocidas por su radio.",
+    "diameter": {
+      "value": 2400000000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.4e+31,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 340000,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 9500,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Proxima Centauri",
+    "name_ua": "Проксима Центавра",
+    "name_es": "Próxima Centauri",
+    "description_en": "The closest star to the Sun, a red dwarf.",
+    "description_ua": "Найближча до Сонця зірка, червоний карлик.",
+    "description_es": "La estrella más cercana al Sol, una enana roja.",
+    "diameter": {
+      "value": 215000,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 2.42e+29,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 0.0017,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 4.24,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "star",
+    "category_ua": "Зірка",
+    "category_es": "Estrella",
+    "name_en": "Canopus",
+    "name_ua": "Канопус",
+    "name_es": "Canopus",
+    "description_en": "The second‑brightest star in the night sky.",
+    "description_ua": "Друга за яскравістю зірка нічного неба.",
+    "description_es": "La segunda estrella más brillante del cielo nocturno.",
+    "diameter": {
+      "value": 99000000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.74e+31,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 10700,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 310,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "binary star",
+    "category_ua": "Подвійна зірка",
+    "category_es": "Estrella binaria",
+    "name_en": "Alpha Centauri A",
+    "name_ua": "Альфа Центавра A",
+    "name_es": "Alfa Centauri A",
+    "description_en": "Sun‑like primary star of the Alpha Centauri system.",
+    "description_ua": "Схожа на Сонце головна зірка системи Альфа Центавра.",
+    "description_es": "Estrella principal similar al Sol en el sistema Alfa Centauri.",
+    "diameter": {
+      "value": 1700000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 2.187e+30,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 1.519,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 4.37,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "binary star",
+    "category_ua": "Подвійна зірка",
+    "category_es": "Estrella binaria",
+    "name_en": "Alpha Centauri B",
+    "name_ua": "Альфа Центавра B",
+    "name_es": "Alfa Centauri B",
+    "description_en": "The cooler, smaller companion in the Alpha Centauri binary.",
+    "description_ua": "Більш холодний і менший компаньйон у подвійній системі Альфа Центавра.",
+    "description_es": "El compañero más frío y pequeño del binario Alfa Centauri.",
+    "diameter": {
+      "value": 1200000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 1.8e+30,
+      "unit": "kg"
+    },
+    "luminosity": {
+      "value": 0.5,
+      "unit": "L☉"
+    },
+    "distance_to_earth": {
+      "value": 4.37,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "Milky Way",
+    "name_ua": "Чумацький Шлях",
+    "name_es": "Vía Láctea",
+    "description_en": "The barred spiral galaxy that contains our Solar System.",
+    "description_ua": "Спіральна галактика з перемичкою, що містить Сонячну систему.",
+    "description_es": "La galaxia espiral barrada que alberga nuestro sistema solar.",
+    "diameter": {
+      "value": 105700,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 1500000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 0,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "Andromeda",
+    "name_ua": "Туманність Андромеди",
+    "name_es": "Andrómeda",
+    "description_en": "The nearest major galaxy to the Milky Way, on a collision course.",
+    "description_ua": "Найближча велика галактика до Чумацького Шляху, що наближається до зіткнення.",
+    "description_es": "La galaxia grande más cercana a la Vía Láctea, en rumbo de colisión.",
+    "diameter": {
+      "value": 220000,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 1230000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 2.537,
+      "unit": "Mly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "Triangulum Galaxy",
+    "name_ua": "Галактика Трикутник",
+    "name_es": "Galaxia del Triángulo",
+    "description_en": "A spiral galaxy, the third largest in the Local Group.",
+    "description_ua": "Спіральна галактика, третя за розміром у Місцевій групі.",
+    "description_es": "Una galaxia espiral, la tercera más grande del Grupo Local.",
+    "diameter": {
+      "value": 60000,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 500000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 2.73,
+      "unit": "Mly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "Sombrero Galaxy",
+    "name_ua": "Галактика Сомбреро",
+    "name_es": "Galaxia Sombrero",
+    "description_en": "A galaxy with a bright nucleus and large central bulge resembling a sombrero.",
+    "description_ua": "Галактика з яскравим ядром і великою центральною опуклістю, схожа на сомбреро.",
+    "description_es": "Una galaxia con un núcleo brillante y gran bulbo central que parece un sombrero.",
+    "diameter": {
+      "value": 49000,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 800000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 29,
+      "unit": "Mly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "Large Magellanic Cloud",
+    "name_ua": "Велика Магелланова Хмара",
+    "name_es": "Gran Nube de Magallanes",
+    "description_en": "A satellite galaxy of the Milky Way visible from the southern hemisphere.",
+    "description_ua": "Супутникова галактика Чумацького Шляху, видима з південної півкулі.",
+    "description_es": "Una galaxia satélite de la Vía Láctea visible desde el hemisferio sur.",
+    "diameter": {
+      "value": 14000,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 10000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 163,
+      "unit": "kly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "Small Magellanic Cloud",
+    "name_ua": "Мала Магелланова Хмара",
+    "name_es": "Pequeña Nube de Magallanes",
+    "description_en": "A dwarf galaxy companion to the Milky Way.",
+    "description_ua": "Карликова галактика‑супутник Чумацького Шляху.",
+    "description_es": "Una galaxia enana compañera de la Vía Láctea.",
+    "diameter": {
+      "value": 7000,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 7000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 200,
+      "unit": "kly"
+    }
+  },
+  {
+    "category_en": "galaxy",
+    "category_ua": "Галактика",
+    "category_es": "Galaxia",
+    "name_en": "IC 1101",
+    "name_ua": "IC 1101",
+    "name_es": "IC 1101",
+    "description_en": "One of the largest known galaxies by diameter and mass.",
+    "description_ua": "Одна з найбільших відомих галактик за діаметром і масою.",
+    "description_es": "Una de las galaxias más grandes conocidas por diámetro y masa.",
+    "diameter": {
+      "value": 1000000.0,
+      "unit": "ly"
+    },
+    "mass": {
+      "value": 10000000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 1.04,
+      "unit": "Gly"
+    }
+  },
+  {
+    "category_en": "black hole",
+    "category_ua": "Чорна діра",
+    "category_es": "Agujero negro",
+    "name_en": "Sagittarius A*",
+    "name_ua": "Стрілець A*",
+    "name_es": "Sagitario A*",
+    "description_en": "The supermassive black hole at the center of the Milky Way.",
+    "description_ua": "Надмасивна чорна діра в центрі Чумацького Шляху.",
+    "description_es": "El agujero negro supermasivo en el centro de la Vía Láctea.",
+    "diameter": {
+      "value": 25400000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 4154000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 26000,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "black hole",
+    "category_ua": "Чорна діра",
+    "category_es": "Agujero negro",
+    "name_en": "M87*",
+    "name_ua": "M87*",
+    "name_es": "M87*",
+    "description_en": "The first black hole ever imaged directly by the Event Horizon Telescope.",
+    "description_ua": "Перша чорна діра, сфотографована безпосередньо за допомогою Телескопа горизонту подій.",
+    "description_es": "El primer agujero negro fotografiado directamente por el Telescopio Horizonte de Eventos.",
+    "diameter": {
+      "value": 38000000000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 6500000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 53.5,
+      "unit": "Mly"
+    }
+  },
+  {
+    "category_en": "black hole",
+    "category_ua": "Чорна діра",
+    "category_es": "Agujero negro",
+    "name_en": "TON 618",
+    "name_ua": "TON 618",
+    "name_es": "TON 618",
+    "description_en": "One of the most massive known black holes.",
+    "description_ua": "Одна з наймасивніших відомих чорних дір.",
+    "description_es": "Uno de los agujeros negros más masivos conocidos.",
+    "diameter": {
+      "value": 120000000000.0,
+      "unit": "km"
+    },
+    "mass": {
+      "value": 66000000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 10.4,
+      "unit": "Gly"
+    }
+  },
+  {
+    "category_en": "black hole",
+    "category_ua": "Чорна діра",
+    "category_es": "Agujero negro",
+    "name_en": "Cygnus X-1",
+    "name_ua": "Cygnus X-1",
+    "name_es": "Cyg X-1",
+    "description_en": "A well‑studied stellar‑mass black hole in a binary system.",
+    "description_ua": "Добре вивчена чорна діра зоряної маси в подвійній системі.",
+    "description_es": "Un agujero negro de masa estelar bien estudiado en un sistema binario.",
+    "diameter": {
+      "value": null,
+      "unit": null
+    },
+    "mass": {
+      "value": 21.2,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 6070,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "quasar",
+    "category_ua": "Квазар",
+    "category_es": "Cuásar",
+    "name_en": "3C 273",
+    "name_ua": "3C 273",
+    "name_es": "3C 273",
+    "description_en": "The first quasar ever identified, extremely luminous.",
+    "description_ua": "Перший відкритий квазар, надзвичайно яскравий.",
+    "description_es": "El primer cuásar identificado, extremadamente luminoso.",
+    "diameter": {
+      "value": null,
+      "unit": null
+    },
+    "mass": {
+      "value": 880000000.0,
+      "unit": "M☉"
+    },
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 2.443,
+      "unit": "Gly"
+    }
+  },
+  {
+    "category_en": "universe",
+    "category_ua": "Всесвіт",
+    "category_es": "Universo",
+    "name_en": "Observable Universe",
+    "name_ua": "Видимий Всесвіт",
+    "name_es": "Universo observable",
+    "description_en": "The portion of the universe we can, in principle, observe.",
+    "description_ua": "Частина Всесвіту, яку ми можемо спостерігати в принципі.",
+    "description_es": "La parte del universo que podemos observar en principio.",
+    "diameter": {
+      "value": 93,
+      "unit": "Gly"
+    },
+    "mass": null,
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 0,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "nebula",
+    "category_ua": "Туманність",
+    "category_es": "Nebulosa",
+    "name_en": "Orion Nebula",
+    "name_ua": "Туманність Оріона",
+    "name_es": "Nebulosa de Orión",
+    "description_en": "A bright emission nebula and stellar nursery.",
+    "description_ua": "Яскрава емісійна туманність і зоряна колиска.",
+    "description_es": "Una brillante nebulosa de emisión y vivero estelar.",
+    "diameter": {
+      "value": 24,
+      "unit": "ly"
+    },
+    "mass": null,
+    "luminosity": null,
+    "distance_to_earth": {
+      "value": 1344,
+      "unit": "ly"
+    }
+  },
+  {
+    "category_en": "belt",
+    "category_ua": "Пояс",
+    "category_es": "Cinturón",
+    "name_en": "Kuiper Belt",
+    "name_ua": "Пояс Койпера",
+    "name_es": "Cinturón de Kuiper",
+    "description_en": "A region of small icy bodies beyond Neptune's orbit.",
+    "description_ua": "Область малих крижаних тіл за орбітою Нептуна.",
+    "description_es": "Una región de pequeños cuerpos helados más allá de la órbita de Neptuno.",
+    "diameter": {
+      "value": 100,
+      "unit": "AU"
+    },
+    "mass": null,
+    "luminosity": null,
+    "distance_to_earth": null
+  },
+  {
+    "category_en": "cloud",
+    "category_ua": "Хмара",
+    "category_es": "Nube",
+    "name_en": "Oort Cloud",
+    "name_ua": "Хмара Оорта",
+    "name_es": "Nube de Oort",
+    "description_en": "A hypothetical cloud of icy objects surrounding the Solar System.",
+    "description_ua": "Гіпотетична хмара крижаних об'єктів навколо Сонячної системи.",
+    "description_es": "Una nube hipotética de objetos helados que rodea el sistema solar.",
+    "diameter": {
+      "value": 200000,
+      "unit": "AU"
+    },
+    "mass": null,
+    "luminosity": null,
+    "distance_to_earth": null
+  }
+]
