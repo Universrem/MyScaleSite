@@ -1,0 +1,114 @@
+/* styles/components.css */
+
+/* Ліва панель блоків */
+#left-bar {
+    width: 260px;
+    height: 100vh;
+    background-color: #9AB4BB;
+    padding: 24px 18px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+/* Dropdown (ховається за замовчуванням) */
+.dropdown {
+    display: none;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 4px;
+    padding: 8px;
+}
+
+.dropdown.active {
+    display: flex;
+}
+
+/* Заголовки розділів у dropdown */
+.section-title {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+}
+
+/* Група кнопок режимів (2×2) */
+.mode-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+/* Загальні стилі для селектів та полів вводу */
+.select-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    appearance: none;
+    /* скидає стандартний стріл з select */
+}
+
+/* Група інформаційного поля */
+.info-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.info-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #CCCCCC;
+    border-radius: 50%;
+    color: #333333;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+/* Кнопки дії */
+.calculate-btn {
+    background: #2E8B57;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.calculate-btn:hover {
+    background: #276e4d;
+}
+
+.reset-btn {
+    background: #A0522D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background: #874423;
+}
+
+/* Контейнер для карти */
+#map-container {
+    flex: 1;
+}

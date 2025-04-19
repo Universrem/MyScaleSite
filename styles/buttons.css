@@ -1,0 +1,31 @@
+/* styles/buttons.css */
+
+/* Стилі для компоненту кнопки */
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 22px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.btn .arrow {
+    transition: transform 0.2s ease;
+}
+
+.btn.open .arrow {
+    transform: rotate(180deg);
+}
